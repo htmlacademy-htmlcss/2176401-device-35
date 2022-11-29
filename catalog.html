@@ -34,6 +34,63 @@
           <li><a href="#">Каталог товаров</a></li>
           <li><a href="#">Моноподы для селфи</a></li>
         </ul>
+        <div class="sorted-list">
+          <a class="#" href="#home">Фильтр</a>
+          <a href="#">Сортировка</a>
+          <a href="#">Подробнее</a>
+          <a href="#">Кнопка</a>
+          <a href="#">Кнопка2</a>
+        </div>
+        <section>
+          <form action="#" method="get">
+            <fieldset>
+              <legend>Стоимость</legend>
+              <label>
+                от
+                <input type="text" value="0" />
+              </label>
+              <label>
+                до
+                <input type="text" value="5000" />
+              </label>
+            </fieldset>
+            <fieldset>
+              <legend>Цвет</legend>
+              <label>
+                <input type="checkbox" name="color" checked value="Черный" />
+                Черный
+              </label>
+              <label>
+                <input type="checkbox" name="color" checked value="Белый" />
+                Белый
+              </label>
+              <label>
+                <input type="checkbox" name="color" />
+                Синий
+              </label>
+              <label>
+                <input type="checkbox" name="color" />
+                Красный
+              </label>
+              <label>
+                <input type="checkbox" name="color" />
+                Розовый
+              </label>
+            </fieldset>
+            <fieldset>
+              <legend>Bluetooth</legend>
+              <label>
+                <input type="checkbox" name="Yes" checked value="Yes" />
+                Есть
+              </label>
+              <label>
+                <input type="checkbox" name="No" />
+                Нет
+              </label>
+            </fieldset>
+            <button type="button">Показать</button>
+          </form>
+        </section>
         <ul class="product-list">
           <li class="product-card">
             <a class="product-card-link" href="#">
@@ -64,6 +121,17 @@
             <span class="product-card-price">1500 ₽</span>
           </li>
         </ul>
+        <button type="button">Загрузить еще</button>
+      </div>
+      <div class="pagination">
+        <a href="#">Вперед</a>
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">...</a>
+        <a href="#">5</a>
+        <a href="#">6</a>
+        <a href="#">Назад</a>
       </div>
     </main>
 

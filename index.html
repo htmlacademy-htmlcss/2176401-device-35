@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
+    <div class="container">
     <header class="header">
       <div>
         <img
@@ -16,13 +17,13 @@
           height="38"
         />
       </div>
-      <form action="#" method="get">
-        <input type="search" placeholder="Поиск по сайту" />
-        <input type="submit" value="Войти" />
-      </form>
-
       <div class="user-menu">
-        <ul>
+        <form action="#" method="get">
+          <input type="search" placeholder="Поиск по сайту" />
+          <input type="submit" value="Войти" />
+        </form>
+
+        <ul class="user-menu-item">
           <li class="user-menu-sign-in">
             <a href="#">Войти</a>
           </li>
@@ -36,7 +37,7 @@
       </div>
 
       <div class="service">
-        <ul>
+        <ul class="servise-item">
           <li class="service-catalog">
             <a href="/2176401-device-35/catalog.html">Каталог товаров</a>
           </li>
@@ -54,7 +55,7 @@
     </header>
 
     <main class="index">
-      <div class="container">
+
         <img
           src="./image/other-images/quadrocopter.png"
           alt="Слайдер-на главном фоне квадрокоптер"
@@ -77,7 +78,7 @@
         </dl>
 
         <div class="catalog-category-list">
-          <ul>
+          <ul class="catalog-category-product">
             <li class="catalog-category-virtual-reality-glasses">
               <a href="#">Виртуальная реальность</a>
               <img src="#" alt="Очки виртуальной реальности" />
@@ -183,13 +184,12 @@
           alt="Логотип Девайс"
           width="145"
           height="36"
-        />
-        <ul class="Socials">
-          <li class="links-to-services-adress">
-            <a href="">
-              Санкт-Петербург, набережная реки Карповки, 5, литера П.
-            </a>
-          </li>
+          />
+        <address class="footer-contacts-address">
+          <p class="about-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
+          <a class="footer-contacts-address-phone" href="tel:+78005558628">+7 800 555-86-28</a>
+        </address>
+        <ul class="socials">
           <li class="links-to-services-delivery">
             <a href="">Доставка</a>
           </li>
@@ -199,14 +199,11 @@
           <li class="links-to-services-contact">
             <a href="">Контакты</a>
           </li>
-          <li class="links-to-services-contact-number">
-            <a href="tel:78128121212">Тел.: +7 (812) 812-12-12</a>
-          </li>
         </ul>
       </div>
 
       <div class="social-icon">
-        <ul>
+        <ul class="social-icon-item">
           <li>
             <a class="social-icon-telegram" href=""></a>
             <img src="#" alt="Логотип Телеграмм" />

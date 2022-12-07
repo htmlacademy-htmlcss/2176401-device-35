@@ -1,0 +1,154 @@
+@font-face {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 800;
+  src: url(../fonts/raleway/raleway-800.woff2);
+  font-display: swap;}
+@font-face {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 400 700;
+  src: url(../fonts/rubik/rubik-400.woff2);
+  src: url(../fonts/rubik/rubik-700.woff2);
+  font-display: swap;
+}
+body {
+  font-family: Raleway ,normal;
+  background-color: #ffffff;
+  color: black;
+}
+button {
+  font-family: Raleway,normal;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+.container{
+  margin: 40px 140px;
+
+}
+.header {
+  background-color: #FFE17F;
+  color: black;
+}
+.user-menu {
+  font-family: Rubik ,normal;
+  font-size: 18px;
+  line-height: 30px;
+  text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+ .service {
+  font-family: Raleway,normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: flex;
+}
+.user-menu-item{
+display: flex;
+}
+.servise-item {
+  display: flex;
+}
+.catalog-category-product{
+  display: flex;
+}
+.catalog-category-virtual-reality-glasses {
+  background-color: #FFE17F;
+  background-image: url(../image/other-images/virtual-glasses.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.catalog-category-selfie-monopod {
+  background-color: #FFE17F;
+  background-image: url(../image/other-images/monopod.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.catalog-category-action-camera {
+  background-color: #FFE17F;
+  background-image: url(../image/other-images/action-camera.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.catalog-category-fitness-braselets {
+  background-color: #FFE17F;
+  background-image: url(../image/other-images/ftns-braselets.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.catalog-category-smart-watch {
+  background-color: #FFE17F;
+  background-image: url(../image/other-images/smart-watch.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.catalog-category-quadrocopter {
+  background-color: #FFE17F;
+  background-image: url(../image/other-images/quadrocopter-catalog.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+footer {
+  background-color: #444444;
+  display: flex;
+}
+footer a {
+  color: #ffffff;
+}
+.social-icon-item {
+  display: flex;
+}
+.contacts-address {
+  font-style: normal;
+}
+/* стилизация каталога */
+.user-menu-inner {
+ display: flex;
+ font-family: 'Rubik';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 18px;
+ line-height: 30px;
+
+}
+.catalog-list-inner {
+ display: flex;
+ font-family: 'Raleway';
+ font-style: normal;
+ font-weight: 800;
+ font-size: 18px;
+ line-height: 21px;
+ letter-spacing: 0.2em;
+ text-transform: uppercase;
+ color: black;
+}
+.catalog-title {
+  font-weight: 800;
+font-size: 50px;
+line-height: 50px;
+width: 541px;
+height: 50px;
+}
+.breadscrumbs {
+display: flex;
+font-size: 16px;
+line-height: 20px;
+}

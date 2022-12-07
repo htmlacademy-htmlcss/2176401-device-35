@@ -6,216 +6,221 @@
     <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
-    <header class="header">
-      <div>
-        <img
-          class="logo-device"
-          src="./image/logodevice.svg"
-          alt="Логотип Девайс"
-          width="145"
-          height="36"
-        />
-      </div>
-      <form action="#" method="get">
-        <input type="search" placeholder="Текст поиска" />
-      </form>
-
-      <ul>
-        <li><a href="#">Выйти</a></li>
-        <li><a href="#">Коля Петухов</a></li>
-        <li><a href="#">Сравнить</a></li>
-        <li><a href="#">Корзина</a></li>
-      </ul>
-      <ul>
-        <li><a href="/2176401-device-35/catalog.html">Каталог товаров</a></li>
-        <li><a href="#">Доставка</a></li>
-        <li><a href="#">Гарантия</a></li>
-        <li><a href="#">Контакты</a></li>
-      </ul>
-    </header>
-    <main class="inner">
-      <div>
-        <h1>Моноподы для селфи</h1>
-        <ul class="breadscrumbs">
-          <li><a href="index.html">Главная</a></li>
-          <li><a href="#">Каталог товаров</a></li>
-          <li><a href="#">Моноподы для селфи</a></li>
-        </ul>
-        <div class="sorted-list">
-          <a class="#" href="#home">Фильтр</a>
-          <a href="#">Сортировка</a>
-          <a href="#">Подробнее</a>
-          <a href="#">Кнопка</a>
-          <a href="#">Кнопка2</a>
+    <div class="container">
+      <header class="header">
+        <div>
+          <img
+            class="logo-device"
+            src="./image/logodevice.svg"
+            alt="Логотип Девайс"
+            width="145"
+            height="36"
+          />
         </div>
-        <section>
+        <div class="user-menu">
           <form action="#" method="get">
-            <fieldset>
-              <legend>Стоимость</legend>
-              <label>
-                от
-                <input type="text" value="0" />
-              </label>
-              <label>
-                до
-                <input type="text" value="5000" />
-              </label>
-            </fieldset>
-            <fieldset>
-              <legend>Цвет</legend>
-              <label>
-                <input type="checkbox" name="color" checked value="Черный" />
-                Черный
-              </label>
-              <label>
-                <input type="checkbox" name="color" checked value="Белый" />
-                Белый
-              </label>
-              <label>
-                <input type="checkbox" name="color" />
-                Синий
-              </label>
-              <label>
-                <input type="checkbox" name="color" />
-                Красный
-              </label>
-              <label>
-                <input type="checkbox" name="color" />
-                Розовый
-              </label>
-            </fieldset>
-            <fieldset>
-              <legend>Bluetooth</legend>
-              <label>
-                <input type="checkbox" name="Yes" checked value="Yes" />
-                Есть
-              </label>
-              <label>
-                <input type="checkbox" name="No" />
-                Нет
-              </label>
-            </fieldset>
-            <button type="button">Показать</button>
+            <input type="search" placeholder="Текст поиска"/>
+            <input type="submit" value="Найти" />
           </form>
-        </section>
-        <ul class="product-list">
-          <li class="product-card">
-            <a class="product-card-link" href="#">
-              <img
-                class="product-card-image"
-                src="./image/catalog-images/selfie-pod.jpeg"
-                alt="изображение селфи-палки"
-                width="360"
-                height="380"
-              />
-              <h3 class="product-card-title">Любительская селфи-палка</h3>
-            </a>
-            <span class="product-card-price">500 ₽</span>
-          </li>
-          <li class="product-card">
-            <a class="product-card-link" href="#">
-              <img
-                class="product-card-image"
-                src="./image/catalog-images/selfie-pod-professional.jpeg"
-                alt="изображение профессиональной селфи-палки"
-                width="360"
-                height="380"
-              />
-              <h3 class="product-card-title">Профессиональная селфи-палка</h3>
-            </a>
-            <span class="product-card-price">1500 ₽</span>
-          </li>
-          <li class="product-card">
-            <a class="product-card-link" href="#">
-              <img
-                class="product-card-image"
-                src="./image/catalog-images/selfie-pod-unwater.jpeg"
-                alt="изображение непотопляемой селфи-палки"
-                width="360"
-                height="380"
-              />
-              <h3 class="product-card-title">Непотопляемая селфи-палка</h3>
-            </a>
-            <span class="product-card-price">2500 ₽</span>
-          </li>
-          <li class="product-card">
-            <a class="product-card-link" href="#">
-              <img
-                class="product-card-image"
-                src="./image/catalog-images/selfie-pod-followme.jpeg"
-                alt="изображение селфи-палки с рукой"
-                width="360"
-                height="380"
-              />
-              <h3 class="product-card-title">Селфи-палка «Следуй за мной»</h3>
-            </a>
-            <span class="product-card-price">1500 ₽</span>
-          </li>
-        </ul>
-        <button type="button">Загрузить еще</button>
-      </div>
-      <div class="pagination">
-        <a href="#">Вперед</a>
-        <a href="#">1</a>
-        <a href="#">2</a>
-        <a href="#">3</a>
-        <a href="#">...</a>
-        <a href="#">5</a>
-        <a href="#">6</a>
-        <a href="#">Назад</a>
-      </div>
-    </main>
 
-    <footer class="footer">
-      <div class="links-to-services">
-        <img
-          class="logo-device"
-          src="./image/other-images/devicelogo-footer.svg"
-          alt="Логотип Девайс"
-          width="145"
-          height="36"
-        />
-        <ul class="Socials">
-          <li class="links-to-services-adress">
-            <a href="">
-              Санкт-Петербург, набережная реки Карповки, 5, литера П.
-            </a>
-          </li>
-          <li class="links-to-services-delivery">
-            <a href="">Доставка</a>
-          </li>
-          <li class="links-to-services-warranty">
-            <a href="">Гарантия</a>
-          </li>
-          <li class="links-to-services-contact">
-            <a href="">Контакты</a>
-          </li>
-          <li class="links-to-services-contact-number">
-            <a href="tel:78128121212">Тел.: +7 (812) 812-12-12</a>
-          </li>
+        <ul class="user-menu-inner">
+          <li><a href="#">Выйти</a></li>
+          <li><a href="#">Коля Петухов</a></li>
+          <li><a href="#">Сравнить</a></li>
+          <li><a href="#">Корзина</a></li>
         </ul>
-      </div>
+        <ul class="catalog-list-inner">
+          <li><a href="/2176401-device-35/catalog.html">Каталог товаров</a></li>
+          <li><a href="#">Доставка</a></li>
+          <li><a href="#">Гарантия</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </header>
+      <main class="inner">
+        <div>
+          <h1 class="catalog-title">Моноподы для селфи</h1>
+          <ul class="breadscrumbs">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="#">Каталог товаров</a></li>
+            <li><a href="#">Моноподы для селфи</a></li>
+          </ul>
+          <div class="sorted-list">
+            <a class="#" href="#home">Фильтр</a>
+            <a href="#">Сортировка</a>
+            <a href="#">Подробнее</a>
+            <a href="#">Кнопка</a>
+            <a href="#">Кнопка2</a>
+          </div>
+          <div class="filter-list">
+            <form action="#" method="get">
+              <fieldset>
+                <legend>Стоимость</legend>
+                <label>
+                  от
+                  <input type="text" value="0" />
+                </label>
+                <label>
+                  до
+                  <input type="text" value="5000" />
+                </label>
+              </fieldset>
+              <fieldset>
+                <legend>Цвет</legend>
+                <label>
+                  <input type="checkbox" name="color" checked value="Черный" />
+                  Черный
+                </label>
+                <label>
+                  <input type="checkbox" name="color" checked value="Белый" />
+                  Белый
+                </label>
+                <label>
+                  <input type="checkbox" name="color" />
+                  Синий
+                </label>
+                <label>
+                  <input type="checkbox" name="color" />
+                  Красный
+                </label>
+                <label>
+                  <input type="checkbox" name="color" />
+                  Розовый
+                </label>
+              </fieldset>
+              <fieldset>
+                <legend>Bluetooth</legend>
+                <label>
+                  <input type="checkbox" name="Yes" checked value="Yes" />
+                  Есть
+                </label>
+                <label>
+                  <input type="checkbox" name="No" />
+                  Нет
+                </label>
+              </fieldset>
+              <button type="button">Показать</button>
+            </form>
+          </div>
+          <ul class="product-list">
+            <li class="product-card">
+              <a class="product-card-link" href="#">
+                <img
+                  class="product-card-image"
+                  src="./image/catalog-images/selfie-pod.jpeg"
+                  alt="изображение селфи-палки"
+                  width="360"
+                  height="380"
+                />
+                <h3 class="product-card-title">Любительская селфи-палка</h3>
+              </a>
+              <span class="product-card-price">500 ₽</span>
+            </li>
+            <li class="product-card">
+              <a class="product-card-link" href="#">
+                <img
+                  class="product-card-image"
+                  src="./image/catalog-images/selfie-pod-professional.jpeg"
+                  alt="изображение профессиональной селфи-палки"
+                  width="360"
+                  height="380"
+                />
+                <h3 class="product-card-title">Профессиональная селфи-палка</h3>
+              </a>
+              <span class="product-card-price">1500 ₽</span>
+            </li>
+            <li class="product-card">
+              <a class="product-card-link" href="#">
+                <img
+                  class="product-card-image"
+                  src="./image/catalog-images/selfie-pod-unwater.jpeg"
+                  alt="изображение непотопляемой селфи-палки"
+                  width="360"
+                  height="380"
+                />
+                <h3 class="product-card-title">Непотопляемая селфи-палка</h3>
+              </a>
+              <span class="product-card-price">2500 ₽</span>
+            </li>
+            <li class="product-card">
+              <a class="product-card-link" href="#">
+                <img
+                  class="product-card-image"
+                  src="./image/catalog-images/selfie-pod-followme.jpeg"
+                  alt="изображение селфи-палки с рукой"
+                  width="360"
+                  height="380"
+                />
+                <h3 class="product-card-title">Селфи-палка «Следуй за мной»</h3>
+              </a>
+              <span class="product-card-price">1500 ₽</span>
+            </li>
+          </ul>
+          <button type="button">Загрузить еще</button>
+        </div>
+        <div class="pagination">
+          <a href="#">Вперед</a>
+          <a href="#">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">...</a>
+          <a href="#">5</a>
+          <a href="#">6</a>
+          <a href="#">Назад</a>
+        </div>
+      </main>
+    </div>
 
-      <div class="social-icon">
-        <ul>
-          <li>
-            <a class="social-icon-telegram" href=""></a>
-            <img src="#" alt="Логотип Телеграмм" />
-          </li>
-          <li>
-            <a class="social-icon-youtube" href=""></a>
-            <img src="#" alt="Логотип Ютуб" />
-          </li>
-          <li>
-            <a class="social-icon-twitter" href="#">twitter</a>
-            <img src="#" alt="Логотип Твиттера" />
-          </li>
-          <li>
-            <a class="social-icon-academy" href="#">academy</a>
-            <img src="#" alt="Логотип Академиии" />
-          </li>
-        </ul>
-      </div>
-    </footer>
+      <footer class="footer">
+        <div class="links-to-services">
+          <img
+            class="logo-device"
+            src="./image/other-images/devicelogo-footer.svg"
+            alt="Логотип Девайс"
+            width="145"
+            height="36"
+          />
+          <ul class="Socials">
+            <li class="links-to-services-adress">
+              <a href="">
+                Санкт-Петербург, набережная реки Карповки, 5, литера П.
+              </a>
+            </li>
+            <li class="links-to-services-delivery">
+              <a href="">Доставка</a>
+            </li>
+            <li class="links-to-services-warranty">
+              <a href="">Гарантия</a>
+            </li>
+            <li class="links-to-services-contact">
+              <a href="">Контакты</a>
+            </li>
+            <li class="links-to-services-contact-number">
+              <a href="tel:78128121212">Тел.: +7 (812) 812-12-12</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="social-icon">
+          <ul>
+            <li>
+              <a class="social-icon-telegram" href=""></a>
+              <img src="#" alt="Логотип Телеграмм" />
+            </li>
+            <li>
+              <a class="social-icon-youtube" href=""></a>
+              <img src="#" alt="Логотип Ютуб" />
+            </li>
+            <li>
+              <a class="social-icon-twitter" href="#">twitter</a>
+              <img src="#" alt="Логотип Твиттера" />
+            </li>
+            <li>
+              <a class="social-icon-academy" href="#">academy</a>
+              <img src="#" alt="Логотип Академиии" />
+            </li>
+          </ul>
+
+      </footer>
+    </div>
   </body>
 </html>

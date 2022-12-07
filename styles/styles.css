@@ -119,3 +119,36 @@ footer a {
 .contacts-address {
   font-style: normal;
 }
+/* стилизация каталога */
+.user-menu-inner {
+ display: flex;
+ font-family: 'Rubik';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 18px;
+ line-height: 30px;
+
+}
+.catalog-list-inner {
+ display: flex;
+ font-family: 'Raleway';
+ font-style: normal;
+ font-weight: 800;
+ font-size: 18px;
+ line-height: 21px;
+ letter-spacing: 0.2em;
+ text-transform: uppercase;
+ color: black;
+}
+.catalog-title {
+  font-weight: 800;
+font-size: 50px;
+line-height: 50px;
+width: 541px;
+height: 50px;
+}
+.breadscrumbs {
+display: flex;
+font-size: 16px;
+line-height: 20px;
+}
